@@ -8,7 +8,7 @@ X = temp.BOLD_GMreg_mat;
 % X_segment = zeros(412,N,33,246);
 %% Divide into 65-TR segments with 50% overlapping
 N = floor(1195/32)-1;
-X_segment = zeros(412,N,65,246);
+X_segment = zeros(412,N,33,246);
 for i = 1:N
     X_segment(:,i,:,:) = X(:,(1+32*(i-1)):(32*(i+1)+1),:);
 %     X_segment(:,i,:,:) = X(:,(1+16*(i-1)):(16*(i+1)+1),:);
@@ -46,4 +46,4 @@ ptr = size(X_train,1)/2;
 X_train1 = X_train(1:ptr,:,:);
 X_train2 = X_train(ptr+1:end,:,:);
 %%
-save('Resting_State_GSR_segments_long.mat','X_train', 'X_val', 'X_test', 'idx')
+save('Resting_State_GSR_segments.mat','X_train', 'X_val', 'X_test', 'idx')
