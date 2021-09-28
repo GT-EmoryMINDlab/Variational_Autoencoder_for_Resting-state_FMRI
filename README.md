@@ -7,12 +7,14 @@ This repository contains the source codes that were used for the following paper
 Zhang X, Maltbie E, Keilholz S. Spatiotemporal Trajectories in Resting-state FMRI Revealed by Convolutional Variational Autoencoder. bioRxiv. 2021 Jan 1.
 https://www.biorxiv.org/content/10.1101/2021.01.25.427841v1
 
+
 There are 3 main steps:
 1. Preprocessing HCP resting state fMRI data
 2. Train Variational autoencoder
 3. Visualization of results
 
 Before we start, because of the file size constraints, the files that are large in size were replaced by dummy files. If you run the code in the correct order you should be able to generate the correct file locally.
+
 
 The detailed steps are the following:
 
@@ -42,6 +44,7 @@ The detailed steps are the following:
 3. Visualization of results
 
     Run "VAE/VAE_analysis/display_result.m". This script automatically adds "VAE/VAE_analysis/sub_modules/" to its path and calls the helpler functions in the sub_modules.
+  
   
 If you have any questions, please contact the corresponding author Dr. Shella Keilholz shella.keilholz@bme.gatech.edu or me xiaodizhang12@gmail.com. Please cite our paper if you do end up using our code. Thank you!
   
