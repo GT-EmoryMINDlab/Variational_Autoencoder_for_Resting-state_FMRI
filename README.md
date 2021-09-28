@@ -3,6 +3,7 @@
 Xiaodi Zhang, 09/28/2021
 
 This repository contains the source codes that were used for the following paper:
+
 Zhang X, Maltbie E, Keilholz S. Spatiotemporal Trajectories in Resting-state FMRI Revealed by Convolutional Variational Autoencoder. bioRxiv. 2021 Jan 1.
 https://www.biorxiv.org/content/10.1101/2021.01.25.427841v1
 
