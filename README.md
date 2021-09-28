@@ -36,7 +36,7 @@ The detailed steps are the following:
     b. Run "VAE/VAE_analysis/train_test_split.m", which generates a dataset called "Resting_State_GSR_segments.mat" that is ready for training the networks. The dataset contains fMRI segments as individual data points.
   
     c. Run "main.py". In the function, it creates an object "VAE_model" defined in "myVAE.py". There are 4 functions in the class "VAE_model":
-  constructor, data_partition(), training() and testing(). You can change hyperparameters like model_flag = 3, hidden_size = 32, trial = 0, beta = 4 to others and the result would be saved in a separate file with corresponding name
+  constructor, data_partition(), training() and testing(). You can change hyperparameters like model_flag = 3, hidden_size = 32, trial = 0, beta = 4 to others and the result would be saved in a separate file with corresponding name.
   
 3. Visualization of results
 
