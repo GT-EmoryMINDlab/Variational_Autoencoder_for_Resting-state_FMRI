@@ -16,6 +16,7 @@ Before we start, because of the file size constraints, the files that are large 
 The detailed steps are the following:
 
 1. Preprocessing HCP resting state data
+
   a. Download data from the HCP website https://www.humanconnectome.org/study/hcp-young-adult/data-releases
   
   b. Put the raw data in the folder "VAE/HCP_processing/HCP_S500_Volumetric/". There is a dummy file that illustrates the correct path:
@@ -29,6 +30,7 @@ The detailed steps are the following:
   As a result, a file "Resting_State_1_GM_regression.mat" will be generated in the folder "VAE/HCP_processing/HCP_S500_All_in_One/Resting_State_1", which contains the processed, parcellated fMRI data of all subjects in a single file.
   
 2. Train Variational autoencoder
+
   a. Move the generated "VAE/HCP_processing/HCP_S500_All_in_One/Resting_State_1/Resting_State_1_GM_regression.mat" file to the folder "VAE/VAE_analysis/"
   
   b. Run "VAE/VAE_analysis/train_test_split.m", which generates a dataset called "Resting_State_GSR_segments.mat" that is ready for training the networks. The dataset contains fMRI segments as individual data points.
@@ -37,6 +39,7 @@ The detailed steps are the following:
   constructor, data_partition(), training() and testing(). You can change hyperparameters like model_flag = 3, hidden_size = 32, trial = 0, beta = 4 to others and the result would be saved in a separate file with corresponding name
   
 3. Visualization of results
+
   Run "VAE/VAE_analysis/display_result.m"
   
 If you have any questions, please contact the corresponding author Dr. Shella Keilholz shella.keilholz@bme.gatech.edu or me xiaodizhang12@gmail.com. Please cite our paper if you do end up using our code. Thank you!
