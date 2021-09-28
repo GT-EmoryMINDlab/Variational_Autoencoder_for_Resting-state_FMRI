@@ -1,9 +1,9 @@
 clear
 clc
 %% Define Path
-dir_read = 'Y:\keilholz-lab\Xiaodi\HCP_S500_All_in_One';
+dir_read = 'VAE\HCP_S500_All_in_One';
 
-Table = readtable('Y:\keilholz-lab\Xiaodi\HCP_S500_Volumetric\HCP_412.csv');
+Table = readtable('VAE\HCP_S500_Volumetric\HCP_412.csv');
 subject_vector = Table.Subject;
 
 %% Load Data
