@@ -40,7 +40,7 @@ The detailed steps are the following:
   
 3. Visualization of results
 
-    Run "VAE/VAE_analysis/display_result.m"
+    Run "VAE/VAE_analysis/display_result.m". This script automatically adds "VAE/VAE_analysis/sub_modules/" to its path and calls the helpler functions in the sub_modules.
   
 If you have any questions, please contact the corresponding author Dr. Shella Keilholz shella.keilholz@bme.gatech.edu or me xiaodizhang12@gmail.com. Please cite our paper if you do end up using our code. Thank you!
   
