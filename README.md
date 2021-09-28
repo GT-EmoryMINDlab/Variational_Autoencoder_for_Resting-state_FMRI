@@ -7,7 +7,7 @@ Zhang X, Maltbie E, Keilholz S. Spatiotemporal Trajectories in Resting-state FMR
 https://www.biorxiv.org/content/10.1101/2021.01.25.427841v1
 
 There are 3 main steps:
-1. Preprocessing HCP resting state data
+1. Preprocessing HCP resting state fMRI data
 2. Train Variational autoencoder
 3. Visualization of results
 
