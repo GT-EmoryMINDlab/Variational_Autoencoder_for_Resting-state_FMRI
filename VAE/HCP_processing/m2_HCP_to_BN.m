@@ -1,8 +1,8 @@
 clear 
 clc
 %% Define Path
-dir_read = 'Y:\keilholz-lab\Xiaodi\HCP_S500_Volumetric';
-dir_write = 'Y:\keilholz-lab\Xiaodi\HCP_S500_Processed';
+dir_read = 'VAE\HCP_S500_Volumetric';
+dir_write = 'VAE\HCP_S500_Processed';
 
 Table = readtable([dir_read '\HCP_412.csv']);
 subject_vector = Table.Subject;
