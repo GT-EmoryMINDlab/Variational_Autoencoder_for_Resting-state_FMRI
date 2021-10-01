@@ -1,4 +1,4 @@
-# Variational-Autoencoder-for-Resting-State-fMRI
+# Variational_Autoencoder_for_Resting-State_FMRI
 
 Xiaodi Zhang, 09/28/2021
 
